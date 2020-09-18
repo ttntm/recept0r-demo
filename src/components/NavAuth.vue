@@ -35,14 +35,14 @@
             </h3>
           </div>
           <!-- SIGNUP PART - TEMP INVITE ONLY -->
-          <div v-if="mode === 'register'">
+          <div v-if="mode === 'register-disallowed'">
             <p class="text-center">
               Thanks for your interest in recept0r.<br><br>
               Public registrations are suspended until further notice. This is currently an invite only service.
             </p>
           </div>
           <!-- SIGNUP PART -->
-          <form v-if="mode === 'register-allowed'" class="" @submit.prevent>
+          <form v-if="mode === 'register'" class="" @submit.prevent>
             <div class="form-group">
               <label for="name">Name</label>
               <input class="auth-form-control" id="name" v-model="crendentials.name" ref="firstInput" type="text" placeholder="Arnold Schwarzenegger"/>

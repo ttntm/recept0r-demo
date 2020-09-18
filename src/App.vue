@@ -1,5 +1,6 @@
 <template>
   <div id="app" :class="{ 'overflow-hidden' : menuOpen }" class="flex h-full flex-col">
+    <DemoBanner />
     <Navbar :class="{ 'menu-blur' : menuOpen }" />
     <NavMobile />
     <div :class="{ 'menu-blur' : menuOpen }" class="container flex-grow flex-shrink-0 px-4 md:mt-6 lg:mt-12 mx-auto">
@@ -11,6 +12,7 @@
 </template>
 
 <script>
+import DemoBanner from '@/components/DemoBanner.vue';
 import Navbar from '@/components/Navbar.vue';
 import AppFooter from '@/components/AppFooter.vue';
 import { mapGetters } from 'vuex';
@@ -18,6 +20,7 @@ import { mapGetters } from 'vuex';
 export default {
   name: 'App',
   components: {
+    DemoBanner,
     Navbar,
     AppFooter,
     'NavMobile': () => import('@/components/NavMobile.vue'),

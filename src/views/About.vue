@@ -1,5 +1,12 @@
 <template>
 	<div id="about" class="w-full md:w-4/5 mx-auto">
+    <div class="text-center">
+      <h2 style="color: salmon;">IMPORTANT: DEMO VERSION</h2>
+      <p class="font-bold">
+        This is a demo version of <a href="https://recept0r.com" target="_blank">recept0r</a>.
+      </p>
+    </div>
+    <hr />
 		<h2>About recept0r</h2>
 		<p>
 			If you're into cooking, you may find some inspiration here 😁

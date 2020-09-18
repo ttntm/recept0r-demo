@@ -1,5 +1,5 @@
 <template>
-  <nav class="container flex flex-row justify-start lg:justify-center items-center pt-4 lg:pt-12 pb-8 px-6 lg:px-4 mx-auto z-10">
+  <nav class="container flex flex-row justify-start lg:justify-center items-center pt-4 lg:pt-8 pb-8 px-6 lg:px-4 mx-auto z-10">
     <button @click="menuClickHandler()" class="block lg:hidden mr-8" type="button" aria-label="Open Menu">
       <span class="gg-menu"></span>
     </button>
