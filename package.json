@@ -1,0 +1,62 @@
+{
+  "name": "recept0r",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "faunadb": "^2.14.1",
+    "gotrue-js": "^0.9.25",
+    "register-service-worker": "^1.7.1",
+    "secure-ls": "^1.2.6",
+    "sw-precache": "^5.2.1",
+    "tailwindcss": "^1.4.6",
+    "tiptap": "^1.27.1",
+    "tiptap-extensions": "^1.29.1",
+    "vue": "^2.6.11",
+    "vue-clazy-load": "^0.4.2",
+    "vue-router": "^3.2.0",
+    "vue-shortkey": "^3.1.7",
+    "vuex": "^3.4.0",
+    "vuex-multi-tab-state": "^1.0.13",
+    "vuex-persistedstate": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-plugin-pwa": "^4.4.4",
+    "@vue/cli-service": "~4.3.0",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-cli-plugin-webpack-bundle-analyzer": "~2.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-bundle-analyzer": "^3.8.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "vue/custom-event-name-casing": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
