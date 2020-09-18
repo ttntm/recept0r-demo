@@ -5,7 +5,7 @@ export default {
   state() {
     return {
       isDevEnvironment: false,
-      siteURL: 'recept0r.com',
+      siteURL: 'demo.recept0r.com',
       menuOpen: false,
       toastMessage: null,
       functions: {

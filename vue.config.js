@@ -17,16 +17,16 @@ module.exports = {
     }
   },
   pwa: {
-    name: 'recept0r',
+    name: 'recept0r-demo',
     themeColor: '#FFFFFF',
     msTileColor: '#F2F6FF',
     appleMobileWebAppCapable: 'yes',
     appleMobileWebAppStatusBarStyle: 'black',
     manifestPath: 'manifest.json',
     manifestOptions: {
-      name: 'recept0r',
-      short_name: 'recept0r',
-      start_url: 'https://recept0r.com',
+      name: 'recept0r-demo',
+      short_name: 'recept0r-deme',
+      start_url: 'https://demo.recept0r.com',
       display: 'standalone',
       theme_color: '#FFFFFF',
       icons: [

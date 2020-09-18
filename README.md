@@ -1,3 +1,11 @@
+# IMPORTANT: DEMO VERSION
+
+> This is the source code of the demo version of recept0r.
+
+The app based on this code runs at [demo.recept0r.com](https://demo.recept0r.com) and has its own database instance.
+
+---
+
 # About recept0r
 
 If you're into cooking, you may find some inspiration here 😁
